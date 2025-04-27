@@ -4,7 +4,7 @@ using UnityEngine;
 public class TextModifier : MonoBehaviour
 {
     private TextMeshProUGUI texto; // Ahora también lo vamos a encontrar automáticamente
-    private string nuevoTexto = "Ahora Andrew es super puto"; // Ya no es público, no editable desde el inspector
+    private string nuevoTexto = "¡MarkElQueLoLea!"; // Ya no es público, no editable desde el inspector
 
     void Start()
     {
