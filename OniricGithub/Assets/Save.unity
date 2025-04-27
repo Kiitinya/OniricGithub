@@ -276,6 +276,7 @@ GameObject:
   - component: {fileID: 848592070}
   - component: {fileID: 848592072}
   - component: {fileID: 848592071}
+  - component: {fileID: 848592073}
   m_Layer: 5
   m_Name: TextYosh
   m_TagString: Untagged
@@ -356,8 +357,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -385,7 +386,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 113.16914, y: 39.375816, z: 294.77383, w: 6.952326}
+  m_margin: {x: 109.645744, y: 28.38796, z: 293.1181, w: 6.952326}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -399,6 +400,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848592069}
   m_CullTransparentMesh: 1
+--- !u!114 &848592073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848592069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1722713805052a47a2025a5f668aee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &907372061
 GameObject:
   m_ObjectHideFlags: 0
